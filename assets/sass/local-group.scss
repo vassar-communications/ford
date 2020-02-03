@@ -494,9 +494,6 @@ b.Module__label--top:after {
         top: .9em;
         left: 0;
     } 
-    .u-pageInner .u-Masthead__siteName {
-        width: 13em;
-    }
     .u-VCard--site {
         padding: 1.5em 0 0 22.5%;
         margin: 0 auto;
@@ -985,5 +982,28 @@ color: #aaa;
 position: absolute;
 top: 0;
 right: 0;
+}
+
+.g- .u-pageInner .u-Figure__caption { margin-top: 0.3em; font-size: .9em; }
+
+html.g-  {
+    padding: 0;
+    border: none;
+}
+
+.g- body {
+    max-width: 100%;
+}
+
+
+    .g- .PageContent {
+		
+	/*	border-top: 1em solid #B1BEA4; */
+	}
+	
+.g- .PageContentInner {
+    /* padding: 0 2% 2% 2%; */
+	max-width: 75em;
+	margin: 0 auto;
 }
 
